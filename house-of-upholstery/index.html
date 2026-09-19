@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#572c3f">
 <title>House of Upholstery &amp; Slipcovers — an independent website concept by Ryan Fong</title>
 <meta name="description" content="An independent website design concept for House of Upholstery &amp; Slipcovers by Ryan Fong. Not the official business website; no affiliation or endorsement.">
 <link rel="preload" href="../assets/dm-sans-regular.ttf" as="font" type="font/ttf" crossorigin>
@@ -24,8 +24,9 @@
 <header class="site-header">
   <a class="wordmark" href="#main">House of Upholstery <span>&amp;</span> Slipcovers</a>
   <nav aria-label="Main">
-    <a href="#services">Services</a>
+    <a href="#examples">Residential</a>
     <a href="#commercial">Commercial</a>
+    <a href="#services">Services</a>
     <a href="#enquiry">Enquiry</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -34,35 +35,37 @@
 <main id="main">
 
   <section class="hero" aria-labelledby="hero-title">
-    <div class="hero__copy">
-      <p class="kicker">Upholstery workshop · North York, Toronto</p>
-      <h1 id="hero-title">A new chapter for your furniture.</h1>
-      <p class="hero__intro">Upholstery, fitted slipcovers and furniture repair for homes and businesses in Toronto.</p>
-      <p class="hero__cta">
-        <a class="button" href="#enquiry">Preview a project enquiry</a>
-        <a class="button button--ghost" href="#examples">View examples</a>
-      </p>
-      <p class="hero__note">This concept does not send anything. Use sample details only.</p>
-    </div>
+    <div class="hero__inner">
+      <div class="hero__lede">
+        <p class="kicker">Upholstery workshop · North York, Toronto</p>
+        <h1 id="hero-title">A new chapter for your <em>furniture</em>.</h1>
+        <p class="hero__intro">Upholstery, fitted slipcovers and furniture repair for homes and businesses in Toronto — a good piece rebuilt and recovered rather than replaced.</p>
+        <p class="hero__cta">
+          <a class="button" href="#enquiry">Preview a project enquiry</a>
+          <a class="button button--ghost" href="#examples">View examples</a>
+        </p>
+        <p class="hero__note">This concept does not send anything. Use sample details only.</p>
+      </div>
 
-    <figure class="hero__figure">
-      <span class="photo photo--hero">
-        <img src="https://houseofupholstery.yolasite.com/resources/reupholstered%20chair.jpg"
-             width="640" height="853" fetchpriority="high" decoding="async"
-             alt="An upholstered armchair, photographed from the House of Upholstery &amp; Slipcovers homepage">
-      </span>
-      <figcaption>From the business’s existing <a href="https://houseofupholstery.yolasite.com/" target="_blank" rel="noopener noreferrer">homepage</a>.</figcaption>
-    </figure>
+      <figure class="hero__figure">
+        <span class="photo photo--hero">
+          <img src="https://houseofupholstery.yolasite.com/resources/reupholstered%20chair.jpg"
+               width="640" height="853" fetchpriority="high" decoding="async"
+               alt="An upholstered armchair, photographed from the House of Upholstery &amp; Slipcovers homepage">
+        </span>
+        <figcaption>From the business’s existing <a href="https://houseofupholstery.yolasite.com/" target="_blank" rel="noopener noreferrer">homepage</a>.</figcaption>
+      </figure>
+
+      <aside class="hero__detail" aria-label="Work taken on">
+        <p class="hero__detail-label">On the bench</p>
+        <p class="hero__detail-list">Reupholstery · Fitted slipcovers · Foam &amp; cushions · Furniture repair</p>
+      </aside>
+    </div>
   </section>
 
-  <section class="examples" id="examples" aria-labelledby="examples-title">
-    <div class="section-head">
-      <h2 id="examples-title">Residential work</h2>
-      <p class="section-note">A slipcovered wing chair, as shown on the business’s slipcovers page.</p>
-    </div>
-
-    <div class="feature">
-      <figure class="feature__figure">
+  <section class="residential" id="examples" aria-labelledby="examples-title">
+    <div class="residential__inner">
+      <figure class="residential__figure">
         <span class="photo photo--tall">
           <img src="https://houseofupholstery.yolasite.com/resources/slipcover%20wing%20chair.jpg"
                width="407" height="600" loading="lazy" decoding="async"
@@ -70,8 +73,9 @@
         </span>
         <figcaption>From the business’s existing <a href="https://houseofupholstery.yolasite.com/slipcovers.php" target="_blank" rel="noopener noreferrer">slipcovers page</a>.</figcaption>
       </figure>
-      <div class="feature__body">
-        <h3>Home furniture, kept in the room it belongs to</h3>
+
+      <div class="residential__body">
+        <h2 id="examples-title">Home furniture, kept in the room it belongs to</h2>
         <p>Choose a new covering for a sofa, chair or headboard, or explore a fitted slipcover for furniture that does not need complete refinishing.</p>
         <p>Discuss the piece and the finish you have in mind with the shop.</p>
         <p class="link-line"><a href="https://houseofupholstery.yolasite.com/slipcovers.php" target="_blank" rel="noopener noreferrer">Slipcovers on the business’s site</a></p>
@@ -80,206 +84,203 @@
   </section>
 
   <section class="commercial" id="commercial" aria-labelledby="commercial-title">
-    <div class="section-head">
-      <h2 id="commercial-title">Commercial &amp; contract seating</h2>
-      <p class="section-note">Restaurants, medical and dental, offices and other contract work.</p>
+    <div class="commercial__inner">
+      <header class="commercial__head">
+        <h2 id="commercial-title">Seating that has to hold up to the room</h2>
+        <p>Upholstery for restaurants, medical and dental practices, offices and other commercial spaces.</p>
+      </header>
+
+      <div class="swatches">
+        <figure class="swatch">
+          <span class="photo photo--wide">
+            <img src="https://houseofupholstery.yolasite.com/resources/Restaurant%20booth.jpg"
+                 width="288" height="432" loading="lazy" decoding="async"
+                 alt="Restaurant booth seating, photographed from the House of Upholstery &amp; Slipcovers commercial upholstery page">
+          </span>
+          <figcaption>
+            <span class="swatch__label">Restaurants</span>
+            Booth and banquette seating, dining chairs. From the business’s existing <a href="https://houseofupholstery.yolasite.com/commercial-upholstery-restaurants-medical-dental.php" target="_blank" rel="noopener noreferrer">commercial upholstery page</a>.
+          </figcaption>
+        </figure>
+
+        <figure class="swatch">
+          <span class="photo photo--wide">
+            <img src="https://houseofupholstery.yolasite.com/resources/dental%20chair.jpg"
+                 width="640" height="480" loading="lazy" decoding="async"
+                 alt="A dental chair, photographed from the House of Upholstery &amp; Slipcovers commercial upholstery page">
+          </span>
+          <figcaption>
+            <span class="swatch__label">Medical &amp; dental</span>
+            Treatment and examination chairs. From the business’s existing <a href="https://houseofupholstery.yolasite.com/commercial-upholstery-restaurants-medical-dental.php" target="_blank" rel="noopener noreferrer">commercial upholstery page</a>.
+          </figcaption>
+        </figure>
+
+        <figure class="swatch">
+          <span class="photo photo--wide">
+            <img src="https://houseofupholstery.yolasite.com/resources/beautician%20chair.jpg"
+                 width="640" height="955" loading="lazy" decoding="async"
+                 alt="A beautician chair, photographed from the House of Upholstery &amp; Slipcovers commercial upholstery page">
+          </span>
+          <figcaption>
+            <span class="swatch__label">Beauty seating</span>
+            Chairs for salon and beauty rooms. From the business’s existing <a href="https://houseofupholstery.yolasite.com/commercial-upholstery-restaurants-medical-dental.php" target="_blank" rel="noopener noreferrer">commercial upholstery page</a>.
+          </figcaption>
+        </figure>
+      </div>
+
+      <ul class="sectors">
+        <li><strong>Restaurants</strong> — booth and banquette seating, dining chairs.</li>
+        <li><strong>Medical &amp; dental</strong> — treatment and examination chairs.</li>
+        <li><strong>Offices</strong> — seating and contract upholstery for workspaces.</li>
+        <li><strong>Film &amp; sets</strong> — upholstery for sets and props.</li>
+      </ul>
+      <p class="sectors__note">Sectors are listed as the business presents them on its
+        <a href="https://houseofupholstery.yolasite.com/commercial-upholstery-restaurants-medical-dental.php" target="_blank" rel="noopener noreferrer">commercial upholstery page</a>. No project outcomes are claimed here.</p>
     </div>
-
-    <div class="strip">
-      <figure class="strip__item">
-        <span class="photo photo--wide">
-          <img src="https://houseofupholstery.yolasite.com/resources/Restaurant%20booth.jpg"
-               width="288" height="432" loading="lazy" decoding="async"
-               alt="Restaurant booth seating, photographed from the House of Upholstery &amp; Slipcovers commercial upholstery page">
-        </span>
-        <figcaption>
-          <span class="strip__label">Restaurants</span>
-          From the business’s existing <a href="https://houseofupholstery.yolasite.com/commercial-upholstery-restaurants-medical-dental.php" target="_blank" rel="noopener noreferrer">commercial upholstery page</a>.
-        </figcaption>
-      </figure>
-
-      <figure class="strip__item">
-        <span class="photo photo--wide">
-          <img src="https://houseofupholstery.yolasite.com/resources/dental%20chair.jpg"
-               width="640" height="480" loading="lazy" decoding="async"
-               alt="A dental chair, photographed from the House of Upholstery &amp; Slipcovers commercial upholstery page">
-        </span>
-        <figcaption>
-          <span class="strip__label">Medical &amp; dental</span>
-          From the business’s existing <a href="https://houseofupholstery.yolasite.com/commercial-upholstery-restaurants-medical-dental.php" target="_blank" rel="noopener noreferrer">commercial upholstery page</a>.
-        </figcaption>
-      </figure>
-
-      <figure class="strip__item">
-        <span class="photo photo--wide">
-          <img src="https://houseofupholstery.yolasite.com/resources/beautician%20chair.jpg"
-               width="640" height="955" loading="lazy" decoding="async"
-               alt="A beautician chair, photographed from the House of Upholstery &amp; Slipcovers commercial upholstery page">
-        </span>
-        <figcaption>
-          <span class="strip__label">Beauty seating</span>
-          From the business’s existing <a href="https://houseofupholstery.yolasite.com/commercial-upholstery-restaurants-medical-dental.php" target="_blank" rel="noopener noreferrer">commercial upholstery page</a>.
-        </figcaption>
-      </figure>
-    </div>
-
-    <ul class="sectors">
-      <li><strong>Restaurants</strong> — booth and banquette seating, dining chairs.</li>
-      <li><strong>Medical &amp; dental</strong> — treatment and examination chairs.</li>
-      <li><strong>Offices</strong> — seating and contract upholstery for workspaces.</li>
-      <li><strong>Film &amp; sets</strong> — upholstery for sets and props.</li>
-    </ul>
-    <p class="sectors__note">Sectors are listed as the business presents them on its
-      <a href="https://houseofupholstery.yolasite.com/commercial-upholstery-restaurants-medical-dental.php" target="_blank" rel="noopener noreferrer">commercial upholstery page</a>. No project outcomes are claimed here.</p>
   </section>
 
   <section class="ledger" id="services" aria-labelledby="services-title">
-    <div class="section-head">
-      <h2 id="services-title">What the shop takes on</h2>
-      <p class="section-note">Categories as the business presents them on its own site.</p>
+    <div class="ledger__inner">
+      <header class="ledger__head">
+        <h2 id="services-title">Six kinds of work, one workshop</h2>
+        <p class="section-note">Categories as the business presents them on its own site.</p>
+      </header>
+
+      <ol class="rows">
+        <li class="row">
+          <p class="row__num" aria-hidden="true">01</p>
+          <div class="row__body">
+            <h3>Upholstery &amp; reupholstery</h3>
+            <p>Sofas, armchairs, dining chairs, headboards, antiques and one-off pieces — rebuilt and recovered rather than replaced.</p>
+          </div>
+        </li>
+        <li class="row">
+          <p class="row__num" aria-hidden="true">02</p>
+          <div class="row__body">
+            <h3>Fitted slipcovers</h3>
+            <p>Made-to-measure slipcovers cut for the piece, for furniture that needs a fresh surface rather than a full rebuild.</p>
+          </div>
+        </li>
+        <li class="row">
+          <p class="row__num" aria-hidden="true">03</p>
+          <div class="row__body">
+            <h3>Foam, cushions &amp; pillows</h3>
+            <p>Replacement foam and refilled or remade cushions and pillows, cut to size for home and commercial seating.</p>
+          </div>
+        </li>
+        <li class="row">
+          <p class="row__num" aria-hidden="true">04</p>
+          <div class="row__body">
+            <h3>Furniture &amp; upholstery repair</h3>
+            <p>Repair work on frames, seats and covers — the structural side of keeping a good piece in service.</p>
+          </div>
+        </li>
+        <li class="row">
+          <p class="row__num" aria-hidden="true">05</p>
+          <div class="row__body">
+            <h3>Commercial seating</h3>
+            <p>Restaurant and booth seating, medical and dental chairs, office seating and other contract upholstery. <a href="#commercial">See the commercial work</a>.</p>
+          </div>
+        </li>
+        <li class="row">
+          <p class="row__num" aria-hidden="true">06</p>
+          <div class="row__body">
+            <h3>Sets &amp; props</h3>
+            <p>Upholstery for movie sets and props, where a piece has to read correctly on camera.</p>
+          </div>
+        </li>
+      </ol>
+
+      <details class="more">
+        <summary>More detail on how a job is discussed</summary>
+        <div class="more__body">
+          <p>The business states that estimates are done on location across the GTA — call to confirm and to talk through the piece. Bring a photo or a description of the furniture and what you want changed: cover, foam, cushions, repairs or a slipcover.</p>
+          <p>Contact details and the official contact page are listed at the <a href="#contact">bottom of this page</a>.</p>
+        </div>
+      </details>
     </div>
-
-    <ol class="rows">
-      <li class="row">
-        <p class="row__num" aria-hidden="true">01</p>
-        <div class="row__body">
-          <h3>Upholstery &amp; reupholstery</h3>
-          <p>Sofas, armchairs, dining chairs, headboards, antiques and one-off pieces — rebuilt and
-            recovered rather than replaced.</p>
-        </div>
-      </li>
-      <li class="row">
-        <p class="row__num" aria-hidden="true">02</p>
-        <div class="row__body">
-          <h3>Fitted slipcovers</h3>
-          <p>Made-to-measure slipcovers cut for the piece, for furniture that needs a fresh surface
-            rather than a full rebuild.</p>
-        </div>
-      </li>
-      <li class="row">
-        <p class="row__num" aria-hidden="true">03</p>
-        <div class="row__body">
-          <h3>Foam, cushions &amp; pillows</h3>
-          <p>Replacement foam and refilled or remade cushions and pillows, cut to size for home and
-            commercial seating.</p>
-        </div>
-      </li>
-      <li class="row">
-        <p class="row__num" aria-hidden="true">04</p>
-        <div class="row__body">
-          <h3>Furniture &amp; upholstery repair</h3>
-          <p>Repair work on frames, seats and covers — the structural side of keeping a good piece
-            in service.</p>
-        </div>
-      </li>
-      <li class="row">
-        <p class="row__num" aria-hidden="true">05</p>
-        <div class="row__body">
-          <h3>Commercial seating</h3>
-          <p>Restaurant and booth seating, medical and dental chairs, office seating and other
-            contract upholstery. <a href="#commercial">See the commercial work</a>.</p>
-        </div>
-      </li>
-      <li class="row">
-        <p class="row__num" aria-hidden="true">06</p>
-        <div class="row__body">
-          <h3>Sets &amp; props</h3>
-          <p>Upholstery for movie sets and props, where a piece has to read correctly on camera.</p>
-        </div>
-      </li>
-    </ol>
-
-    <details class="more">
-      <summary>More detail on how a job is discussed</summary>
-      <div class="more__body">
-        <p>The business states that estimates are done on location across the GTA — call to confirm
-          and to talk through the piece. Bring a photo or a description of the furniture and what you
-          want changed: cover, foam, cushions, repairs or a slipcover.</p>
-        <p>Contact details and the official contact page are listed at the
-          <a href="#contact">bottom of this page</a>.</p>
-      </div>
-    </details>
   </section>
 
   <section class="enquiry" id="enquiry" aria-labelledby="enquiry-title">
-    <div class="section-head">
-      <h2 id="enquiry-title">Enquiry preview</h2>
-      <p class="section-note">A sample of how a project enquiry could be described.</p>
-    </div>
+    <div class="enquiry__inner">
+      <header class="enquiry__head">
+        <h2 id="enquiry-title">Sketch out the job before you call</h2>
+        <p class="section-note">A sample of how a project enquiry could be described. Nothing here is sent to the business.</p>
+      </header>
 
-    <div class="enquiry__grid">
-      <form class="form" id="enquiry-form" novalidate>
-        <div class="field">
-          <label for="project-type">Project type</label>
-          <select id="project-type" name="project-type" required>
-            <option value="">Choose one</option>
-            <option value="home">Home</option>
-            <option value="commercial">Commercial</option>
-          </select>
+      <div class="enquiry__grid">
+        <form class="form" id="enquiry-form" novalidate>
+          <div class="field">
+            <label for="project-type">Project type</label>
+            <select id="project-type" name="project-type" required>
+              <option value="">Choose one</option>
+              <option value="home">Home</option>
+              <option value="commercial">Commercial</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="item">Furniture item</label>
+            <input id="item" name="item" type="text" maxlength="120" autocomplete="off"
+                   placeholder="e.g. two-seat sofa, dining chairs, booth seating…" required>
+          </div>
+
+          <div class="field">
+            <label for="details">What you would want done <span>sample details only</span></label>
+            <textarea id="details" name="details" rows="4" maxlength="600" autocomplete="off"
+                      placeholder="e.g. Reupholster a sofa and replace the foam in both cushions…"></textarea>
+          </div>
+
+          <p class="form-actions">
+            <button class="button" type="submit">Preview enquiry</button>
+            <button class="button button--ghost" type="reset">Clear</button>
+          </p>
+          <p class="form-note">Nothing is submitted, saved or sent anywhere, and no contact details are collected. Please use sample details only — this preview is not an enquiry to the business.</p>
+        </form>
+
+        <div class="preview" aria-live="polite">
+          <h3 class="preview__title">Preview</h3>
+          <p class="status" id="enquiry-status" role="status" tabindex="-1">Fill in the form and choose “Preview enquiry” to see a summary of the sample details here.</p>
+          <dl class="preview__list" id="enquiry-summary" hidden>
+            <dt>Project type</dt><dd id="summary-type"></dd>
+            <dt>Furniture item</dt><dd id="summary-item"></dd>
+            <dt>Details</dt><dd id="summary-details"></dd>
+          </dl>
         </div>
-
-        <div class="field">
-          <label for="item">Furniture item</label>
-          <input id="item" name="item" type="text" maxlength="120" autocomplete="off"
-                 placeholder="e.g. two-seat sofa, dining chairs, booth seating…" required>
-        </div>
-
-        <div class="field">
-          <label for="details">What you would want done <span>sample details only</span></label>
-          <textarea id="details" name="details" rows="4" maxlength="600" autocomplete="off"
-                    placeholder="e.g. Reupholster a sofa and replace the foam in both cushions…"></textarea>
-        </div>
-
-        <p class="form-actions">
-          <button class="button" type="submit">Preview enquiry</button>
-          <button class="button button--ghost" type="reset">Clear</button>
-        </p>
-        <p class="form-note">Nothing is submitted, saved or sent anywhere, and no contact details are
-          collected. Please use sample details only — this preview is not an enquiry to the business.</p>
-      </form>
-
-      <div class="preview" aria-live="polite">
-        <h3 class="preview__title">Preview</h3>
-        <p class="status" id="enquiry-status" role="status" tabindex="-1">Fill in the form and choose
-          “Preview enquiry” to see a summary of the sample details here.</p>
-        <dl class="preview__list" id="enquiry-summary" hidden>
-          <dt>Project type</dt><dd id="summary-type"></dd>
-          <dt>Furniture item</dt><dd id="summary-item"></dd>
-          <dt>Details</dt><dd id="summary-details"></dd>
-        </dl>
       </div>
     </div>
   </section>
 
   <section class="contact" id="contact" aria-labelledby="contact-title">
-    <div class="section-head">
-      <h2 id="contact-title">Location &amp; source</h2>
-      <p class="section-note">Details as published by the business. Contact the shop to confirm availability.</p>
-    </div>
+    <div class="contact__inner">
+      <header class="contact__head">
+        <h2 id="contact-title">Visit the workshop</h2>
+        <p class="section-note">Details as published by the business. Contact the shop to confirm availability.</p>
+      </header>
 
-    <div class="contact__grid">
-      <div class="contact__block">
-        <h3>The workshop</h3>
-        <address>
-          House of Upholstery &amp; Slipcovers<br>
-          104 Kenhar Drive, Unit 7<br>
-          Toronto, ON M9L 1N4
-        </address>
-        <p>Phone <a href="tel:+14167460816">416-746-0816</a><br>
-           Email <a href="mailto:houseofupholstery@yahoo.ca">houseofupholstery@yahoo.ca</a></p>
-        <p class="link-line"><a href="https://houseofupholstery.yolasite.com/contact-us.php" target="_blank" rel="noopener noreferrer">Official contact details</a></p>
-      </div>
+      <div class="contact__grid">
+        <div class="contact__block">
+          <h3>The workshop</h3>
+          <address>
+            House of Upholstery &amp; Slipcovers<br>
+            104 Kenhar Drive, Unit 7<br>
+            Toronto, ON M9L 1N4
+          </address>
+          <p>Phone <a href="tel:+14167460816">416-746-0816</a><br>
+             Email <a href="mailto:houseofupholstery@yahoo.ca">houseofupholstery@yahoo.ca</a></p>
+          <p class="link-line"><a href="https://houseofupholstery.yolasite.com/contact-us.php" target="_blank" rel="noopener noreferrer">Official contact details</a></p>
+        </div>
 
-      <div class="contact__block">
-        <h3>Source pages</h3>
-        <p>Every photograph on this page is loaded from the business’s own site and links back to the
-          page it appears on.</p>
-        <ul class="source-list">
-          <li><a href="https://houseofupholstery.yolasite.com/" target="_blank" rel="noopener noreferrer">Homepage</a></li>
-          <li><a href="https://houseofupholstery.yolasite.com/slipcovers.php" target="_blank" rel="noopener noreferrer">Slipcovers</a></li>
-          <li><a href="https://houseofupholstery.yolasite.com/commercial-upholstery-restaurants-medical-dental.php" target="_blank" rel="noopener noreferrer">Commercial upholstery</a></li>
-          <li><a href="https://houseofupholstery.yolasite.com/contact-us.php" target="_blank" rel="noopener noreferrer">Contact</a></li>
-        </ul>
+        <div class="contact__block">
+          <h3>Source pages</h3>
+          <p>Every photograph on this page is loaded from the business’s own site and links back to the page it appears on.</p>
+          <ul class="source-list">
+            <li><a href="https://houseofupholstery.yolasite.com/" target="_blank" rel="noopener noreferrer">Homepage</a></li>
+            <li><a href="https://houseofupholstery.yolasite.com/slipcovers.php" target="_blank" rel="noopener noreferrer">Slipcovers</a></li>
+            <li><a href="https://houseofupholstery.yolasite.com/commercial-upholstery-restaurants-medical-dental.php" target="_blank" rel="noopener noreferrer">Commercial upholstery</a></li>
+            <li><a href="https://houseofupholstery.yolasite.com/contact-us.php" target="_blank" rel="noopener noreferrer">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
