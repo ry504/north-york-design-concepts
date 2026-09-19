@@ -9,6 +9,7 @@
 <meta name="description" content="An independent website design concept for Toronto Landscape Design by Ryan Fong. Not the official business website; no affiliation.">
 <link rel="preload" href="../assets/dm-sans-regular.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://www.torontolandscapedesign.com">
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -19,8 +20,9 @@
 <header class="site-header">
   <a class="wordmark" href="#main">Toronto Landscape Design</a>
   <nav aria-label="Main">
-    <a href="#services">Services</a>
-    <a href="#process">Design &amp; build</a>
+    <a href="#work">Work</a>
+    <a href="#process">Process</a>
+    <a href="#enquiry">Enquiry</a>
   </nav>
 </header>
 
@@ -28,75 +30,116 @@
 
   <section class="hero" aria-labelledby="hero-title">
     <div class="hero__copy">
-      <h1 id="hero-title">A considered landscape. From first plan to final stone.</h1>
-      <p class="hero__intro">Hardscapes, natural stone, outdoor rooms, pools and water features, woodwork, garden beds and landscape lighting — brought together as one design.</p>
-      <p class="hero__support">Residential landscape design and installation across Toronto and the Greater Toronto Area.</p>
-      <p class="hero__cta"><a class="button" href="#enquiry">Preview an enquiry</a></p>
+      <h1 id="hero-title">Landscape design and build in Toronto.</h1>
+      <p class="hero__intro">Hardscapes, natural stone, outdoor rooms, pools, woodwork, garden beds and lighting — designed and built as one landscape.</p>
+      <p class="hero__cta">
+        <a class="button" href="#work">View work</a>
+        <a class="button button--ghost" href="#enquiry">Preview an enquiry</a>
+      </p>
     </div>
     <figure class="hero__figure">
-      <img src="../assets/garden.jpg" width="900" height="900" fetchpriority="high" alt="Layered garden planting beside a lawn and stone path; illustrative stock photograph">
-      <figcaption>
-        <span class="hero__label">Illustrative photograph</span>
-        Stock photography by Marina Nazina. Not a Toronto Landscape Design project.
-      </figcaption>
+      <img src="https://www.torontolandscapedesign.com/images/stories/banners/toronto-landscape-design-homepage1.jpg" width="2500" height="1200" fetchpriority="high" alt="Stone patio with a pool and seating area, from the Toronto Landscape Design homepage">
+      <figcaption>Homepage photograph from the official <a href="https://www.torontolandscapedesign.com/" target="_blank" rel="noopener noreferrer">Toronto Landscape Design</a> website. Shown here to demonstrate the proposed layout.</figcaption>
     </figure>
   </section>
 
-  <section class="services" id="services" aria-labelledby="services-title">
+  <section class="work" id="work" aria-labelledby="work-title">
     <div class="section-head">
-      <h2 id="services-title">Three groups of work,<br>one plan.</h2>
+      <h2 id="work-title">Work</h2>
+      <p class="section-note">Eight categories from the official portfolio. Each opens the original page.</p>
     </div>
-    <ol class="ruled">
-      <li class="row">
-        <p class="row__num">01</p>
-        <h3 class="row__title">Hardscape &amp; stone</h3>
-        <ul class="row__items">
-          <li>Hardscapes</li>
-          <li>Natural stone</li>
-        </ul>
+    <ul class="gallery">
+      <li class="card">
+        <a class="card__link" href="https://www.torontolandscapedesign.com/our-work/hardscapes" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.torontolandscapedesign.com/media/widgetkit/driveways-walkways-3a5ef408a6d8ab2f1e72424ecd720765.jpg" alt="Hardscapes work by Toronto Landscape Design" width="500" height="600" loading="lazy" decoding="async">
+          <span class="card__body">
+            <span class="card__title">Hardscapes</span>
+            <span class="card__desc">Driveways and walkways.</span>
+          </span>
+        </a>
       </li>
-      <li class="row">
-        <p class="row__num">02</p>
-        <h3 class="row__title">Outdoor rooms</h3>
-        <ul class="row__items">
-          <li>Kitchens &amp; fireplaces</li>
-          <li>Pools &amp; water features</li>
-        </ul>
+      <li class="card">
+        <a class="card__link" href="https://www.torontolandscapedesign.com/our-work/natural-stone-elements" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.torontolandscapedesign.com/media/widgetkit/natural-stone-elements-6f78f9a2e4f6e0f370b37f209c631940.jpg" alt="Natural stone elements work by Toronto Landscape Design" width="500" height="600" loading="lazy" decoding="async">
+          <span class="card__body">
+            <span class="card__title">Natural stone elements</span>
+            <span class="card__desc">Natural stone in the landscape.</span>
+          </span>
+        </a>
       </li>
-      <li class="row">
-        <p class="row__num">03</p>
-        <h3 class="row__title">Woodwork &amp; planting</h3>
-        <ul class="row__items">
-          <li>Woodwork</li>
-          <li>Garden beds</li>
-          <li>Landscape lighting</li>
-        </ul>
+      <li class="card">
+        <a class="card__link" href="https://www.torontolandscapedesign.com/our-work/kitchens-fireplaces" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.torontolandscapedesign.com/media/widgetkit/kitchens-fireplaces-9e84e28a020843f3e89dcc8e1dc8a130.jpg" alt="Kitchens and fireplaces work by Toronto Landscape Design" width="500" height="600" loading="lazy" decoding="async">
+          <span class="card__body">
+            <span class="card__title">Kitchens &amp; fireplaces</span>
+            <span class="card__desc">Outdoor kitchens and fireplaces.</span>
+          </span>
+        </a>
       </li>
-    </ol>
+      <li class="card">
+        <a class="card__link" href="https://www.torontolandscapedesign.com/our-work/pools-water-features" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.torontolandscapedesign.com/media/widgetkit/pools-waterfalls-8f9785c5cc42c2bc938416c171f1a801.jpg" alt="Pools and water features work by Toronto Landscape Design" width="500" height="600" loading="lazy" decoding="async">
+          <span class="card__body">
+            <span class="card__title">Pools &amp; water features</span>
+            <span class="card__desc">Pools, waterfalls and water features.</span>
+          </span>
+        </a>
+      </li>
+      <li class="card">
+        <a class="card__link" href="https://www.torontolandscapedesign.com/our-work/woodwork" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.torontolandscapedesign.com/media/widgetkit/woodwork-8e926755b60d382ace8783473184d2b3.jpg" alt="Woodwork by Toronto Landscape Design" width="500" height="600" loading="lazy" decoding="async">
+          <span class="card__body">
+            <span class="card__title">Woodwork</span>
+            <span class="card__desc">Woodwork in the landscape.</span>
+          </span>
+        </a>
+      </li>
+      <li class="card">
+        <a class="card__link" href="https://www.torontolandscapedesign.com/our-work/garden-beds" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.torontolandscapedesign.com/media/widgetkit/garden-beds-260a10ebc57bfc11f68239c4bd6283da.jpg" alt="Garden beds by Toronto Landscape Design" width="500" height="600" loading="lazy" decoding="async">
+          <span class="card__body">
+            <span class="card__title">Garden beds</span>
+            <span class="card__desc">Garden beds and planting.</span>
+          </span>
+        </a>
+      </li>
+      <li class="card">
+        <a class="card__link" href="https://www.torontolandscapedesign.com/our-work/landscape-lighting" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.torontolandscapedesign.com/media/widgetkit/castlefield-lighting-1-623fd20fcee81c5cc30cc97d081a86a2.jpg" alt="Landscape lighting by Toronto Landscape Design" width="500" height="600" loading="lazy" decoding="async">
+          <span class="card__body">
+            <span class="card__title">Landscape lighting</span>
+            <span class="card__desc">Landscape lighting.</span>
+          </span>
+        </a>
+      </li>
+      <li class="card">
+        <a class="card__link" href="https://www.torontolandscapedesign.com/our-work/commercial-projects" target="_blank" rel="noopener noreferrer">
+          <img src="https://www.torontolandscapedesign.com/media/widgetkit/commercial-4ba5a755a0bd72acd6b81c68bc5abfe2.jpg" alt="Commercial projects by Toronto Landscape Design" width="500" height="600" loading="lazy" decoding="async">
+          <span class="card__body">
+            <span class="card__title">Commercial projects</span>
+            <span class="card__desc">Commercial landscape projects.</span>
+          </span>
+        </a>
+      </li>
+    </ul>
   </section>
 
   <section class="process" id="process" aria-labelledby="process-title"><div class="process__inner">
-    <div class="section-head">
-      <h2 id="process-title">How the work moves.</h2>
-    </div>
+    <h2 id="process-title">Process</h2>
     <ol class="strip">
       <li>
-        <p class="strip__num">01</p>
-        <h3>First conversation</h3>
+        <h3>Conversation</h3>
         <p>The space, how it is used, and the work being considered.</p>
       </li>
       <li>
-        <p class="strip__num">02</p>
         <h3>Design</h3>
         <p>Layout, materials and planting resolved into a plan.</p>
       </li>
       <li>
-        <p class="strip__num">03</p>
         <h3>Build</h3>
         <p>Hardscape, stone and woodwork constructed on site.</p>
       </li>
       <li>
-        <p class="strip__num">04</p>
         <h3>Finish</h3>
         <p>Garden beds, lighting and the final details.</p>
       </li>
@@ -105,7 +148,7 @@
 
   <section class="enquiry" id="enquiry" aria-labelledby="enquiry-title">
     <div class="section-head">
-      <h2 id="enquiry-title">Start with the work<br>you have in mind.</h2>
+      <h2 id="enquiry-title">Start with the work you have in mind.</h2>
       <p class="enquiry__note">Sample details only. This concept form does not send or store anything, and no contact details are required.</p>
     </div>
     <form id="enquiry-form" novalidate>
@@ -113,12 +156,13 @@
         <label for="service">Service</label>
         <select id="service" name="service">
           <option value="Hardscapes">Hardscapes</option>
-          <option value="Natural stone">Natural stone</option>
+          <option value="Natural stone elements">Natural stone elements</option>
           <option value="Kitchens and fireplaces">Kitchens &amp; fireplaces</option>
           <option value="Pools and water features">Pools &amp; water features</option>
           <option value="Woodwork">Woodwork</option>
           <option value="Garden beds">Garden beds</option>
           <option value="Landscape lighting">Landscape lighting</option>
+          <option value="Commercial projects">Commercial projects</option>
         </select>
       </div>
       <div class="field">
@@ -143,7 +187,7 @@
   </div>
   <div class="footer__legal">
     <p>Independent, unsolicited design concept by Ryan Fong. Not affiliated with, endorsed by or operated by Toronto Landscape Design; details would need owner approval before any launch. No submissions, no tracking, no accounts.</p>
-    <p>Photograph by <a href="https://unsplash.com/photos/ZsDPaogSt5k" target="_blank" rel="noopener noreferrer">Marina Nazina on Unsplash</a>, used as an illustrative photograph rather than a company project.</p>
+    <p>Photographs are loaded from the official <a href="https://www.torontolandscapedesign.com/" target="_blank" rel="noopener noreferrer">torontolandscapedesign.com</a> website and link back to the original category pages. No licence or authorisation is claimed, and the images remain the property of their owner. This concept should not go to production without the owner's approval.</p>
   </div>
 </div></footer>
 
